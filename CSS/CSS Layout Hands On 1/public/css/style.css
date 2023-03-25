@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background-color: yellowgreen;
+} */
+div.Holygrail{
+    height: 100vh;
+    /* border: 20px solid; */
+    width: 100vw;
+    display: flex;
+    align-items: stretch;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+    div.Holygrail header{
+        width: 100%;
+        height: 150px;
+        background-color: #8ace3f;
+        justify-content: space-between;
+        display: flex;
+    }
+        div.Holygrail header a{
+            text-decoration: none;
+            align-self: center;
+        }
+            a:hover {
+                background-color: gold;
+            }
+    div.Holygrail nav{
+        width: 20%;
+        height: 100%;
+        background-color: #f5f5dc;
+
+    }
+    div.Holygrail article{
+        width: 60%;
+        height: 100%;
+        background-color: #ffffff;
+
+    }
+    div.Holygrail aside{
+        width: 20%;
+        height: 100%;
+        background-color: #f5f5dc;
+    }
+    div.Holygrail footer{
+        width: 100%;
+        height: 150px;
+        background-color: #8ace3f;
+    }

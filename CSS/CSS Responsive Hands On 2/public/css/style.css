@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.container{
+    height: 100vh;
+    /* border: 20px solid; */
+    width: 100vw;
+    display: flex;
+    align-items: stretch;
+    align-content: flex-start;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+    div.container header{
+        width: 100%;
+        height: 150px;
+        background-color: #8ace3f;
+        display:flex;
+}
+    div.Holygrail3 nav{
+        width: 18%;
+        height: 100%;
+        background-color: #d2e9d5;
+        display:flex;
+    }
+    div.Holygrail3 article{
+        width: 60%;
+        height: 70%;
+        background-color: #f5f5dc;
+        display:flex;
+        margin-top: 20px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+}
+    div.Holygrail3 div.article1{
+        align-items: stretch;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    div.Holygrail3 div.article2{
+        align-items: stretch;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+
+div.Holygrail3 aside{
+    width: 20%;
+    height: 100%;
+    background-color: #f5f5dc;
+    display:flex;
+}
+div.Holygrail3 footer{
+    width: 100%;
+    height: 150px;
+    background-color: #8ace3f;
+    display:flex;
+}
