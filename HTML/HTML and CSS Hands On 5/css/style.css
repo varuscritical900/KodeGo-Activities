@@ -1,0 +1,70 @@
+body{
+    background-color: grey;
+}
+div.container{
+    width: 1200px;
+    min-height: 900px;
+    background-color:white;
+    margin: 0px auto;
+    }
+    div.container p{
+        display:inline-block;
+        padding-right:35px;
+        color:red;
+    }
+    div.container h2{
+        padding:1px 1px;
+        border:2px solid black;
+        height: 35px;
+        width:30px;
+        text-align: center;
+        padding-top:7px;
+        margin:3px -2px 3px 10px;
+        display:inline-block;
+        color:blue;
+    }
+    div.container .headernumber{
+        text-align: center;
+        display:block;
+        margin-left:90px;
+    }
+    div.container .headernumber p{
+        vertical-align: top;
+        display:inline-block;
+        padding: 0 35px 0 0;
+    }
+    div.container .westblue1{
+        margin-left: 190px;
+        display:inline-block;
+        width:150px;
+    }
+    div.container .westblue1 h2{
+        background-color:skyblue;
+    }
+    div.container .centerpink{
+        display:inline-block;
+        margin: 157px 0 0 -20px;
+        padding-bottom:5px;
+        vertical-align: top;
+    }
+    div.container .centerpink h2{
+        background-color:pink;
+    }
+    div.container .eastyellow{
+        display:inline-block;
+        margin-left:-11px;
+    }
+    div.container .eastyellow h2{
+        display:inline-block;
+        background-color:yellow;
+        width:38px;
+    }
+    div.container .southgreen{
+        margin-left: 222px;
+    }
+    div.container .southgreen h2{
+        background-color:green;
+    }
+    div.container .southgreen p{
+        margin-right: -50px;
+    }    
