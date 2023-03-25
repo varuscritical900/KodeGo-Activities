@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/bootstrap.css">
+    <title>Edit Restaurant</title>
+</head>
+<body>
+         <!-- Nav Section-->
+         <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid text-light">
+              <a class="navbar-brand text-light" href="https://kodego.ph/">Kodego</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="index.html">Restaurant Demo</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Button login -->
+            <a class="btn btn-primary" href="login.html" role="button">Login</a>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger mx-1" data-bs-toggle="modal" data-bs-target="#exampleModal2">SignUp</button>
+      
+            <!-- Modal SignUp-->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">SignUp</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email:</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email"></div>
+                                <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">FullName:</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Full Name">
+                                </div>
+                                <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Sign Up</button>
+                            </form>
+                            </div>
+                            <div class="modal-footer">
+                            <p class="text-start fs-6">Sign Up Successful, Thanks for registering with us! Go to <a href="Login.html">Login</a></p>
+                            </div>
+                        </div>
+                        </div>
+            </div>
+            <!-- Modal SignUp End-->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success mx-1" data-bs-toggle="modal" data-bs-target="#exampleModal">Inventory</button>
+      
+            <!-- Modal Inventory-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <table class="table table-striped">
+                      <thead>
+                          <tr>
+                              <th scope="col">Item ID</th>
+                              <th scope="col">Item Name</th>
+                              <th scope="col">Item Price</th>
+                              <th scope="col">Item Category</th>
+                              <th scope="col">Action</th>
+                          </tr>
+                      </thead>
+                      <tbody class="table-group-divider">
+                          <tr>
+                              <td scope="col">F01</td>
+                              <td scope="col">Adobo</td>
+                              <td scope="col">150</td>
+                              <td scope="col">Viand </td>
+                              <td scope="col"><button type="button" class="btn btn-primary">Edit</button> <button type="button" class="btn btn-danger">Delete</button></td>
+                          </tr>
+                          <tr>
+                              <td scope="col">F02</td>
+                              <td scope="col">Sisig</td>
+                              <td scope="col">100</td>
+                              <td scope="col">Viand </td>
+                              <td scope="col"><button type="button" class="btn btn-primary">Edit</button> <button type="button" class="btn btn-danger">Delete</button></td>
+                          </tr>
+                          <tr>
+                              <td scope="col">F03</td>
+                              <td scope="col">Afritda</td>
+                              <td scope="col">168</td>
+                              <td scope="col">Viand </td>
+                              <td scope="col"><button type="button" class="btn btn-primary">Edit</button> <button type="button" class="btn btn-danger">Delete</button></td>
+                          </tr>
+                          <tr>
+                              <td scope="col">F04</td>
+                              <td scope="col">Tinola</td>
+                              <td scope="col">150</td>
+                              <td scope="col">Viand </td>
+                              <td scope="col"><button type="button" class="btn btn-primary">Edit</button> <button type="button" class="btn btn-danger">Delete</button></td>
+                          </tr>
+                          <tr>
+                              <td scope="col">D01</td>
+                              <td scope="col">Buko Juice</td>
+                              <td scope="col">25</td>
+                              <td scope="col">Drinks </td>
+                              <td scope="col"><button type="button" class="btn btn-primary">Edit</button> <button type="button" class="btn btn-danger">Delete</button></td>
+                          </tr>
+                          <tr>
+                              <td scope="col">D02</td>
+                              <td scope="col">Sago't Gulaman</td>
+                              <td scope="col">30</td>
+                              <td scope="col">Drinks </td>
+                              <td scope="col"><button type="button" class="btn btn-primary">Edit</button> <button type="button" class="btn btn-danger">Delete</button></td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal Inventory-->
+            <!--Create Edit Button-->
+            <a class="btn btn-warning mx-1" href="create.html" role="button">Create</a>
+            <a class="btn btn-secondary mx-1" href="edit.html" role="button">Edit</a>
+    
+          </nav>
+          <!-- Nav Section end-->
+
+          <div class="mx-2">
+            <h1 class="fs-3" id="exampleModalLabel">Edit <br/>Restaurant</h1>
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+          </div>
+          <div class="container">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Food Name"></div>
+              
+                <label for="exampleDataList" class="form-label">Type of food</label>
+                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Enter Type of food">
+                <datalist id="datalistOptions">
+                  <option value="Italian">
+                  <option value="Mexican">
+                  <option value="Southern Cuisine">
+                  <option value="Bateaux">
+                  <option value="Filipino">
+                  <option value="Chinese">
+                </datalist>
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="onlineOrders">Open for Online Orders?</label>
+
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">LuanDate:</label>
+                <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="Enter Food Name">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Choose City</label>
+                <select class="form-select" aria-label="Default select example">
+                <option value="1">San Mateo</option>
+                  <option selected>Caloocan</option>
+                  <option value="2">Marikina</option>
+                  <option value="3">Antipolo</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary">Update</button>
+            </form>
+            <a href="index.html">Back to List</a>
+          </div>
+
+
+    <!--Footer-->
+    <footer class="bg-dark text-light py-2">
+        <article class="text-center">
+            <p>®2022 RestaurantManagementSystem <a href="https://kodego.ph/">-KodeGo Demo</a></p>
+        </article>
+    </footer>
+    <!--Footer-->
+</body>
+    <script src="public/js/bootstrap.js"></script>
+</html>
