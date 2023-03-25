@@ -1,0 +1,156 @@
+body{
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+table {
+    margin: 50px 15px 15px 85px;
+    width: 600px;
+    font-family: Arial;
+    border-collapse: collapse;
+}
+tr:nth-child(even){background: rgb(243, 243, 243) }
+
+tr:hover {
+    background-color: #ddd;
+}
+
+th {
+    background: rgb(167, 162, 141);
+    color: white;
+    text-align: left;
+    padding: 15px;
+}
+td {
+    padding: 15px;
+}
+
+div.container{
+    width: 1485px;
+    min-height: 600px;
+    background-color: grey;
+    opacity: .9;
+    margin:0px auto;
+    border: 10px solid;
+    padding: 20px;
+}
+    div.container div.header{
+        min-height: 150px;
+        width: 1300px;
+        margin: 0px auto;
+        background-color: blue;
+        margin-bottom: 10px;
+    }
+    div.container div.sideNav{
+        min-height: 1235px;
+        width: 180px;
+        background-color: rgb(216, 148, 21);
+        display: inline-block;
+        margin: 0px 20px 10px 90px;
+        vertical-align: top;
+        vertical-align: right;
+    }
+        div.container div.sideNav a{
+            display: block;
+            text-decoration: none;
+            font-size: 25px;
+            text-align: center;
+            margin-top: 70px;
+            color: black;
+        }
+            a:hover{
+                background-color: brown;
+            }
+
+    div.container div.mainContent{
+        min-height: 400px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        width: 1100px;
+        background-color: red;
+        display: inline-block;
+    }
+        div.container div.mainContent div.mainPicture {
+            display: inline-block;
+            margin-bottom: 5px;
+            vertical-align: top;
+            vertical-align: right;
+        }
+            div.container div.mainContent div.mainPicture div.profilePicture{
+                min-height: 250px;
+                width: 250px;
+                background-color: blueviolet;
+                border: 1px solid;
+                display: inline-block;
+                margin-left: 28px;
+                margin-top: 20px;
+            }
+                div.container div.mainContent div.mainPicture div.profilePicture img{
+                    height: 220px;
+                    width:220px;
+                    margin: 15px 5px 5px 15px;
+                }
+            div.container div.mainContent div.mainPicture div.subProfilePicture1{
+                min-height: 90px;
+                width: 120px;
+                background-color: blueviolet;
+                border: 1px solid;
+                margin-left: 28px;
+                margin-top: 20px;
+            }
+                div.container div.mainContent div.mainPicture div.subProfilePicture1 img{
+                    height: 90px;
+                    width:100px;
+                    margin: 10px 5px 5px 10px;
+                }
+     
+            div.container div.mainContent div.mainPicture div.subProfilePicture2{
+                min-height: 90px;
+                width: 120px;
+                background-color: blueviolet;
+                border: 1px solid;
+                margin-left: 154px;
+            }
+                div.container div.mainContent div.mainPicture div.subProfilePicture2 img{
+                    height: 90px;
+                    width:100px;
+                    margin: 10px 5px 5px 10px;
+                }
+        div.container div.mainContent div.content{
+            min-height: 493px;
+            width: 766px;
+            background-color: gray;
+            border: 1px solid;
+            margin-left: 28px;
+            margin-top: 20px;
+            margin-bottom: 5px;
+            display: inline-block;
+        }
+        div.container div.mainContent div.content_2{
+            min-height: 463px;
+            width: 1051px;
+            background-color: blueviolet;
+            border: 1px solid;
+            margin-left: 28px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+            div.container div.mainContent div.content_2 div.subContents{
+                min-height: 200px;
+                width: 1000px;
+                background-color: gray;
+                border: 1px solid;
+                margin-left: 28px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+            }
+    div.container div.footer{
+        min-height: 150px;
+        width: 1300px;
+        margin: 0px auto;
+        background-color: blue;
+        margin-bottom: 10px;
+    }
+        
