@@ -1,0 +1,40 @@
+div.header{
+    width: 600px;
+    margin: 0px auto;
+    padding: 10px 10px;
+    border: 1px solid black; 
+    background-color: gray;
+}
+
+div.header div{
+    width: 300px;
+    margin: 0px auto;
+    padding: 10px 10px;
+    background-color: gray;
+}
+
+div.forgeDiv{
+    width: 600px;
+    margin: 0px auto;
+    padding: 10px 10px;
+    border: 1px solid black; 
+    background-color: gray;
+
+}
+
+div.forgeDiv div{
+    width: 300px;
+    margin: 0px auto;
+    padding: 10px 10px;
+    background-color: white;
+
+}
+
+div.container {
+    width: 600px;
+    margin: 0px auto;
+    padding: 10px 10px;
+    border: 1px solid black; 
+    background-color: gray;
+
+}

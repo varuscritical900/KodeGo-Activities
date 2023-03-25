@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+
+                
+                <!-- <form action="">
+                    <label for="firstName" id="firstName">First Name:</label>
+                    <input type="text" class="regInput" id="firstName" required><br>
+
+                    <label for="middleName" id="middleName">Middle Name:</label>
+                    <input type="text" class="regInput" id="middleName"><br>
+
+                    <label for="lastName" id="lastName">Last Name:</label>
+                    <input type="text" class="regInput" id="lastName" required><br>
+
+                    <label for="birthDate" id="birthDate">Birth Date:</label>
+                    <input type="date" class="regInput" id="date" required><br>
+
+                    <label for="email" id="email">Email:</label>
+                    <input type="email" class="regInput" id="email" required><br>
+
+                    <label for="contactNumber" id="contactNumber">Contact Number:</label>
+                    <input type="text" class="regInput" id="contactNumber" required><br>
+
+                    <label for="city" id="city">City:</label>
+                    <select name="" id="">
+                        <option value="">Manila</option>
+                        <option value="">Cebu</option>
+                        <option value="">Davao</option>
+                    </select><br>
+                    <label for="preferredContactTime" id="preferredContactTime">Preferred Contact Time:</label>
+                    <input type="checkbox"><label for="">Morning</label>
+                    <input type="checkbox"><label for="">Afternoon</label>
+                    <input type="checkbox"><label for="">Evening</label><br>
+                    <input type="submit" value="Register" id="register" onclick="showAlertMessage()">
+                    <a href="/index.html"">Back</a>
+                </form>
+            </tr> -->
+
+
+
+           <!-- <form action=""> -->
+            <table>
+                <tr>
+                    <td>
+                        <label for="firstName">First Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" class="regInput" id="f" required placeholder="First Name"><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="middleName" id="middleName">Middle Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" class="regInput" id="middleName" placeholder="Middle Name"><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="lastName" id="lastName">Last Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" class="regInput" id="lastName" required placeholder="Last Name"><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="birthDate" id="birthDate">Birth Date:</label>
+                    </td>
+                    <td>
+                        <input type="date" class="regInput" id="date" required><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="email" id="email">Email:</label>
+                    </td>
+                    <td>
+                        <input type="email" class="regInput" id="email" required placeholder="Email"><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="contactNumber" id="contactNumber">Contact Number:</label>
+                    </td>
+                    <td>
+                        <input type="text" class="regInput" id="contactNumber" required placeholder="Contact Number"><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="city" id="city">City:</label>
+                    </td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">Manila</option>
+                            <option value="">Cebu</option>
+                            <option value="">Davao</option>
+                        </select><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="preferredContactTime" id="preferredContactTime">Preferred Contact Time:</label>
+                    </td>
+                    <td>
+                        <input type="checkbox"><label for="">Morning</label><br/>
+                        <input type="checkbox"><label for="">Afternoon</label><br/>
+                        <input type="checkbox"><label for="">Evening</label><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        <input type="button" value="Register" id="register" onclick="showAlertMessage()">
+                    </td>
+                </tr>
+            </table>
+           <!-- </form> -->
+
+           <a href="index.html"">Home</a>
+
+
+        <!-- <form action="">
+            <label for="firstName" id="firstName">First Name:</label>
+            <input type="text" class="regInput" id="firstName" required><br>
+            <label for="middleName" id="middleName">Middle Name:</label>
+            <input type="text" class="regInput" id="middleName"><br>
+            <label for="lastName" id="lastName">Last Name:</label>
+            <input type="text" class="regInput" id="lastName" required><br>
+            <label for="birthDate" id="birthDate">Birth Date:</label>
+            <input type="date" class="regInput" id="date" required><br>
+            <label for="email" id="email">Email:</label>
+            <input type="email" class="regInput" id="email" required><br>
+            <label for="contactNumber" id="contactNumber">Contact Number:</label>
+            <input type="text" class="regInput" id="contactNumber" required><br>
+            <label for="city" id="city">City:</label>
+            <select name="" id="">
+                <option value="">Manila</option>
+                <option value="">Cebu</option>
+                <option value="">Davao</option>
+            </select><br>
+            <label for="preferredContactTime" id="preferredContactTime">Preferred Contact Time:</label>
+            <input type="checkbox"><label for="">Morning</label>
+            <input type="checkbox"><label for="">Afternoon</label>
+            <input type="checkbox"><label for="">Evening</label><br>
+            <input type="submit" value="Register" id="register">
+            <a href="/index.html"">Back</a>
+        </form> -->
+    </div>
+
+    <script>
+        function showAlertMessage(){
+            var fName = document.getElementById("f").value
+            // var fName = 1;
+            alert("Hi! "+ fName +" your account is Successfully Registered");
+        }
+    </script>
+
+</body>
+</html>
