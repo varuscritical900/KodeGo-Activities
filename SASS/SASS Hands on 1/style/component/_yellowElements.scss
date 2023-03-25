@@ -1,0 +1,15 @@
+div.yellow_elements{
+    display: $displayInTheline;
+    width: 510px;
+    margin-left: 0px;
+    div.element{
+        width: 60px;
+        height: 62px;
+        border: 1px solid;
+        background-color: $bgColor-yellow;
+        margin: 9px 3px 11px 6px;
+        vertical-align: top;
+        vertical-align: right;
+        display: $displayInTheline;
+    }
+}

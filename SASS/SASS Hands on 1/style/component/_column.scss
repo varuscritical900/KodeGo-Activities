@@ -1,0 +1,10 @@
+div.column{
+    display: $displayInTheline;
+    vertical-align: top;
+    color:$txtColorRed;
+    div.number_column{
+        width: 60px;
+        height: 60px;
+        margin: 12px 5px 27px 5px;
+    }
+}

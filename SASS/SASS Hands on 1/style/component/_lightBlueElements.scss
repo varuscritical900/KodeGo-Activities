@@ -1,0 +1,14 @@
+div.light_blue_elements{
+    display: $displayInTheline;
+    width: 150px;
+    div.element{
+        width: 60px;
+        height: 60px;
+        border: 1px solid;
+        background-color: $bgColor-lightBlue;
+        margin: 5px 5px 15px 5px;
+        vertical-align: top;
+        vertical-align: right;
+        display: inline-block;
+    }
+}

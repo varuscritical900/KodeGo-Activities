@@ -1,0 +1,5 @@
+@mixin displayWidth($direction){
+    display: $direction;
+    width: 1050px;
+    margin-left: -17px;
+}
